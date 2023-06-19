@@ -1,0 +1,334 @@
+*{
+    margin: 0 auto;
+}
+html{
+    scroll-behavior: smooth;
+}
+#photo{
+    width: 100%;
+    height:630px;
+    background-color: rgba(255,234,224,0.5);
+    margin-right:300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#me{
+    margin-right:550px;
+    margin-top:40px;
+    margin-left: 0;
+    z-index: 0;
+}
+
+#photo div:first-of-type{
+    text-align: right;
+    margin-left:300px;
+    margin-right:20px;
+}
+#photo img{
+    border-radius: 10px;
+}
+#photo h1{
+    font-size: 50px;
+    font-style: italic;
+    color: #575757;
+}
+
+header{
+    background-color: rgba(157, 102, 26, 0.27);
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height:50px;
+    z-index: 3;
+}
+
+li{
+    list-style: none;
+}
+
+header > h1{
+    font-family: 'Playfair Display', serif;
+    color: white;
+    margin-left:80px;
+}
+nav{
+    margin-right:70px;
+}
+
+nav li{
+    font-family: 'Playfair Display', serif;
+    color: white;
+    font-size: larger;
+    margin-top:9px;
+    display:inline-block;
+    padding:4px;
+    margin-right:5px;
+}
+
+nav li:hover{
+    cursor:pointer;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+
+}
+a:link, a:visited {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+body > h1{
+    font-family: "Andale Mono", serif;
+    color:white;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom:20px;
+    margin-top:100px;
+}
+
+body{
+    background: linear-gradient(90deg, #ffefd6, #f5c1a0);
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:12px;
+    margin-bottom:120px;
+}
+
+#about{
+    background-color: rgba(255,234,224,0.5);
+    width:500px;
+    height:400px;
+    display: flex;
+    flex-direction: column;
+}
+#about h1{
+    font-size: 40px;
+    font-weight: normal;
+    margin-top:-25px;
+    font-family: "American Typewriter", serif;
+    color: #3f2307;
+    padding-bottom:15px;
+}
+
+
+#about p{
+    margin-left: 20px;
+}
+
+
+#about p, #blog p{
+    font-family: 'Pangolin', cursive;
+    color: #482e0d;
+    margin-right:12px;
+    font-size:18px;
+}
+
+.first_word{
+    font-size: 25px;
+}
+
+#hobby{
+    background-color: rgba(255,234,224,0.5);
+    height:750px;
+    width:1200px;
+    display: flex;
+    flex-direction: column;
+}
+#hobby div{
+    margin-top:20px;
+}
+
+#hobby h1{
+    font-size: 40px;
+    color: #3f2307;
+    font-family: "American Typewriter", serif;
+    font-weight: normal;
+}
+.hobby-right{
+    margin-left:25px;
+    margin-bottom: 30px;
+    width:1150px;
+}
+
+
+.hobby-right img{
+    float:left;
+    margin-right:10px;
+    border-radius:12px;
+}
+
+#hobby p{
+    font-family: 'Pangolin', cursive;
+    color: #482e0d;
+    font-size:18px;
+}
+#hobby-two img{
+    float:right;
+    border-radius:12px;
+    padding-left: 5px;
+}
+
+#hobby-two{
+    margin-right:25px;
+    margin-left:20px;
+    margin-bottom: 30px;
+    width:1150px;
+}
+
+
+#blog{
+    height:950px;
+    background-color: rgba(255,234,224,0.5);
+    margin:10px;
+    border-radius:12px;
+}
+
+#blog h1{
+    font-family: "American Typewriter", serif;
+    font-weight: normal;
+    color: #3f2307;
+    text-align: center;
+    padding-top:50px;
+}
+
+#blog p{
+    padding-top:12px;
+    color: #482e0d;
+}
+
+#map{
+    float:left;
+    margin-left:20px;
+    margin-right:10px;
+
+}
+
+#images{
+    background-color: rgba(220, 167, 129, 0.41);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 50px 10px 10px;
+    padding:10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#images img{
+    border-radius: 80px;
+}
+
+#blog  h3{
+    padding:27px;
+    color:#795548;
+    font-family: "American Typewriter", serif;
+    font-weight: normal;
+}
+
+#form{
+    background-color: rgba(255, 235, 214, 0.6);
+    width:700px;
+    height:350px;
+    border-radius: 12px;
+    margin-bottom:100px;
+}
+
+
+form {
+    padding: 37px;
+    margin: 50px 0;
+}
+
+
+input[type='text'], [type='email'], textarea {
+    background: none;
+    border: none;
+    border-bottom: solid 2px #474544;
+    color: #474544;
+    letter-spacing: 1px;
+    margin: 0 0 17px 0;
+    padding: 0 0 5px 0;
+    width: 100%;
+}
+
+#form_button {
+    background: none;
+    border: solid 2px #474544;
+    color: #474544;
+    cursor: pointer;
+    font-family: 'Helvetica', Arial, sans-serif;
+    font-weight: bold;
+    padding: 20px 35px;
+    text-transform: uppercase;
+}
+
+.submit{
+    text-align: center;
+}
+
+#form_button:hover {
+    background: rgba(114, 89, 66, 0.47);
+    color: #F2F3EB;
+}
+
+footer{
+    background-color: rgba(157, 102, 26, 0.27);
+    height:130px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#social_container{
+    width:200px;
+    padding: 0;
+    display: flex;
+}
+#social img:not(img:last-of-type){
+    margin-top:10px;
+    padding-right: 10px;
+}
+
+
+#social h3{
+    padding-left:3px;
+}
+footer ul{
+    margin-top:10px;
+}
+footer h3{
+    margin-top:10px;
+    padding-right:40px;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    border-bottom: solid 2px rgb(136, 134, 134);
+}
+
+footer ul:not(#social_container){
+    color: #ffffff;
+    letter-spacing: 1px;
+    padding:0;
+    font-family: "American Typewriter",serif;
+
+}
+footer li{
+    padding:2px;
+}
+
+
+footer li:hover, footer img:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
