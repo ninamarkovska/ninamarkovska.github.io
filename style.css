@@ -95,7 +95,7 @@ body{
     background: linear-gradient(90deg, #ffefd6, #f5c1a0);
 }
 
-section{
+section:not(#photo){
     display: flex;
     justify-content: center;
     align-items: center;
@@ -113,7 +113,7 @@ section{
 #about h1{
     font-size: 40px;
     font-weight: normal;
-    margin-top:-25px;
+    margin-top:25px;
     font-family: "American Typewriter", serif;
     color: #3f2307;
     padding-bottom:15px;
@@ -122,6 +122,7 @@ section{
 
 #about p{
     margin-left: 20px;
+    margin-bottom: 50px;
 }
 
 
@@ -198,6 +199,8 @@ section{
     color: #3f2307;
     text-align: center;
     padding-top:50px;
+    font-size: 40px;
+
 }
 
 #blog p{
